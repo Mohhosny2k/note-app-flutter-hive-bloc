@@ -2,13 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:notes_app_flutter/constants.dart';
-import 'package:notes_app_flutter/cubits/add_note_cubit/add_note_cubit.dart';
+//import 'package:notes_app_flutter/cubits/add_note_cubit/add_note_cubit.dart';
 import 'package:notes_app_flutter/models/note_model.dart';
 import 'package:notes_app_flutter/simple_bloc_observer.dart';
-import 'package:notes_app_flutter/views/notes_view.dart';
+//import 'package:notes_app_flutter/views/notes_view.dart';
 import 'package:notes_app_flutter/views/onboarding_screen.dart';
 import 'package:notes_app_flutter/views/splash_screen.dart';
-
 import 'cubits/read_notes_cubit/read_notes_cubit.dart';
 
 void main() async {

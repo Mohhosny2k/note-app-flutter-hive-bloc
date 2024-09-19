@@ -12,7 +12,7 @@ import 'add_note_state.dart';
 class AddNoteCubit extends Cubit<AddNoteState> {
   AddNoteCubit() : super(AddNoteInitial());
   // bool isLoading = false;
-  Color? color= const  Color(0xffAC3931);
+  Color? color = const Color(0xffAC3931);
   addNote(NoteModel note) async {
     // isLoading = true;
     note.color = color!.value;
@@ -31,6 +31,10 @@ class AddNoteCubit extends Cubit<AddNoteState> {
   }
 
   // add<T>(T name) {
+  //   return name;
+  // }
+  
+  //T add<T>(T name) {
   //   return name;
   // }
 }
